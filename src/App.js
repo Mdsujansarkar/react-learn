@@ -1,14 +1,11 @@
-
-
 import Box from "./Box";
+import Loop from "./Loop";
 
 function App() {
 
   return (
-   <div>
-    <Box/>
-
-    <Box/>
+    <div>
+      <Loop />
     </div>
   );
 }

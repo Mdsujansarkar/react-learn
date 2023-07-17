@@ -19,7 +19,7 @@ function Box() {
    <React.Fragment>
     <button className="btn btn-outline-primary" onClick={increMemt}>+</button>
     {num}
-    <button onClick={decreMemt}>-</button>
+    <button className="btn btn-outline-primary" onClick={decreMemt}>-</button>
     </React.Fragment>
   );
 }
