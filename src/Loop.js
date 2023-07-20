@@ -7,8 +7,9 @@ function Loop() {
     }
     return (
         <div>
+            <button className="btn btn-outline-primary" style={{padding: '0.8em'}}>Add Box</button><br/>
             {myArray.map((item, index) => (
-                
+                 
                 <Box />
             ))}
         </div>
