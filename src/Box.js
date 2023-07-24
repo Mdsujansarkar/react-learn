@@ -17,9 +17,9 @@ function Box() {
   }
   return (
    <React.Fragment>
-    <button className="btn btn-outline-primary" onClick={increMemt} style={{padding: '0.8em'}}>+</button>
+    <button className="btn btn-outline-primary m-2" onClick={increMemt} style={{padding: '0.8em'}}>+</button>
     {num}
-    <button className="btn btn-outline-primary" onClick={decreMemt}>-</button><br/>
+    <button className="btn btn-outline-warning  m-2" onClick={decreMemt} style={{padding: '0.8em'}}>-</button><br/>
     </React.Fragment>
   );
 }
